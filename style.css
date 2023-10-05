@@ -1,0 +1,42 @@
+* {
+    /* border: 1px red solid; */
+}
+
+body {
+    background-color: rgb(56, 56, 56);
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    background-color: darkgray;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    font-size: 0;
+    padding: 5px;
+    width: 209px;
+}
+
+#result {
+    text-align: right;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+#calc-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+button {
+    width: 50px;
+}
+
+#result, button {
+    font-size: 30px;
+}
