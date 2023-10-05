@@ -29,7 +29,6 @@ function operate(op, a, b) {
 
 function updateDisplay() {
     secondNum = +display.innerText;
-    console.log(firstNum, secondNum);
     let displayText = selectedOperation != ''
     ? Math.round(operate(selectedOperation, firstNum, secondNum) * 100) / 100 : secondNum;
     if(secondNum === 0 && selectedOperation == '/') displayText = errorMessage;
