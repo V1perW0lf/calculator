@@ -38,3 +38,19 @@ button {
 #display, button {
     font-size: 30px;
 }
+
+#backspace {
+    width: 103px;
+}
+
+.operation {
+    background-color: rgb(255, 136, 92);
+}
+
+#equals {
+    background-color: rgb(53, 139, 196);
+}
+
+.special {
+    background-color: rgb(202, 68, 63);
+}
