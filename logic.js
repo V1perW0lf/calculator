@@ -26,3 +26,14 @@ function operate(op, a, b) {
             return divide(a, b);
     }
 }
+
+const display = document.querySelector('#display');
+const clearButton = document.querySelector('#clear');
+clearButton.addEventListener('click', () => {
+    display.innerText = '0';
+});
+document.querySelectorAll('button.num').forEach((button) => {
+    button.addEventListener('click', () => {
+        display.innerText = display.innerText === '0' ? button.innerText : display.innerText + button.innerText;
+    });
+});

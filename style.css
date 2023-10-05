@@ -1,7 +1,3 @@
-* {
-    /* border: 1px red solid; */
-}
-
 body {
     background-color: rgb(56, 56, 56);
     height: 98vh;
@@ -18,13 +14,15 @@ body {
     font-size: 0;
     padding: 5px;
     width: 209px;
+    border-radius: 5px;
 }
 
-#result {
+#display {
     text-align: right;
     background-color: aliceblue;
     margin-bottom: 5px;
     padding: 3px;
+    border-radius: 5px;
 }
 
 #calc-buttons {
@@ -37,6 +35,6 @@ button {
     width: 50px;
 }
 
-#result, button {
+#display, button {
     font-size: 30px;
 }
